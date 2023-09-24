@@ -172,6 +172,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1',  
 ]
 
+STATICFILES_DIRS = [BASE_DIR / 'static',]
+
 CSRF_USE_SESSIONS = True
 
 STATIC_URL = '/static/'
